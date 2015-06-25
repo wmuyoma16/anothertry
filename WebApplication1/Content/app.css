@@ -1,0 +1,147 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    /*/padding-top:111px;*/
+}
+.navbar{
+    margin-bottom:0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #bbb;
+}
+
+ footer{
+    background-color:#333;
+    color:#ddd;
+    padding:20px;
+    text-align:center;
+}
+.navbar-inverse {
+  background-color: white ;
+  border-color: #e7e7e7;
+  padding:30px 15px;
+  -webkit-transition: all 0.5s;
+  transition:all 0.5s;
+}
+.container-fluid {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cbp-af-header-shrink{
+    padding-top:5px;
+    padding-bottom:5px;
+    opacity:0.9;
+}
+.navbar-brand{
+    padding:10px 0px 0 50px;
+}
+.navbar-right {
+  float: right;
+  margin-right: 10px;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color:black;
+  font-family:wf_segoe-ui_semibold, helvetica, arial, sans-serif;
+ font-size:20px;
+}
+
+
+.navbar-inverse .navbar-nav li a:hover{
+    color:#e21e32 !important;
+}
+
+#pro{
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    color:black;
+    font-size:260%;
+ 
+ }
+#cyber{
+   font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    color:#e21e32;
+    font-size:260%;
+ }
+.fill-screen{
+    
+background-size: cover;
+background-position: 0 0;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.content-filler{
+    min-height:350px;
+}
+.attachment-fixed{
+    background-attachment:fixed;
+}
+@media(max-width:1024){
+    .attachment-fixed{
+        background-attachment:scroll;
+    }
+
+}
+.text-campany .content-filler{
+    margin:40px 20px;
+}
+.content-filler h1{
+    font-size:60px;
+}
+.content-filler p{
+    font-size:25px;
+    padding-top: 40px;
+}
+.services-provided{
+    background-color:aquamarine;
+    min-height:400px;
+    color:black;
+}
+.icon-size{
+    font-size: 500%;
+    text-align:center;
+   
+}
+.services-provided article p{
+    padding:0 20px;
+    font-size:17px;
+}
+
+.click-down{
+    position: absolute;
+    bottom:40px;
+    width:100%;
+    text-align:center;
+    color:white;
+}
+.glyphicon-arrow-down{
+    font-size:300%;
+    color:white;
+}
+.fill-screen .first-thing{
+   color:white;
+   font-family: 'Oswald', sans-serif;
+   padding-top:120px;
+   padding-bottom:40px;
+   font-size:3.6em;
+   font-weight:bold;
+
+}
+.contact .content-filler {
+     font-family:Montserrat, sans-serif;
+    font-size:25px;
+    color:#3e3d3f;
+}
+#business{
+    min-height: 150px;
+    background-color:aquamarine;
+}
+#digital-service{
+    min-height: 150px;
+    background-color:white;
+    padding-top:40px;
+}
+            
